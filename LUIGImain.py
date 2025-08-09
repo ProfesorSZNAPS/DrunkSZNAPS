@@ -39,9 +39,9 @@ async def on_message(message):
     if message.content.startswith('$pomoc'):
         y=random.randint(1,2)
         if y==1:
-            y="Aby zacząć dbać o środowisko, warto skupić się na prostych, codziennych nawykach, które razem mogą przynieść dużą zmianę.\nKluczowe działania to:\nsegregacja śmieci, oszczędzanie energii i wody, ograniczenie zużycia plastiku,\npromowanie transportu publicznego lub roweru oraz wspieranie lokalnych inicjatyw ekologicznych.\nPomocna będzie tez ta aplikacja pobierz ja z tego linku\n------>https://play.google.com/store/apps/details/AfvalWijzer?id=nl.addcomm.afvalwijzer&hl=pl&pli=1"
+            y="Aby zacząć dbać o środowisko, warto skupić się na prostych, codziennych nawykach, które razem mogą przynieść dużą zmianę.\nKluczowe działania to:\nsegregacja śmieci, oszczędzanie energii i wody, ograniczenie zużycia plastiku,\npromowanie transportu publicznego lub roweru oraz wspieranie lokalnych inicjatyw ekologicznych.\nPomocna będzie tez ta aplikacja, pobierz ją z tego linku\n------>https://play.google.com/store/apps/details/AfvalWijzer?id=nl.addcomm.afvalwijzer&hl=pl&pli=1"
         elif y==2:
-            y="o\nd"
+            y="Aby zacząć dbać o środowisko, warto skupić się na prostych, codziennych nawykach, które razem mogą przynieść dużą zmianę.\nKluczowe działania to:\nsegregacja śmieci, oszczędzanie energii i wody, ograniczenie zużycia plastiku,\npromowanie transportu publicznego lub roweru oraz wspieranie lokalnych inicjatyw ekologicznych.\nPomocna będzie tez ta aplikacja, pobierz ją z tego linku\n------>https://play.google.com/store/apps/details/AfvalWijzer?id=nl.addcomm.afvalwijzer&hl=pl&pli=1"
         
         await message.channel.send(y)
 
