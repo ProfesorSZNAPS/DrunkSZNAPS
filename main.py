@@ -28,4 +28,4 @@ async def mem(ctx):
         picture = discord.File(g)
     await ctx.send(file=picture)
 
-bot.run("MTM5NjA1MzIzODc0MjEyNjcwNA.Gr6ZH6.2zEmOuF8yT1Os4Mfq4WPz68dbVqG4Sifw1gdTU")
+bot.run("TOKEN")
